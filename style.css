@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    text-align: justify;
+}
+.container{
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+}
+div .header, .keterangan{
+    color: rgb(109, 107, 107);
+}
+.header h2{
+    margin-bottom: 10px;
+}
+
+.kolom{
+    color: black;
+    font-weight: 2px;
+    margin-top: 15px;
+    background-color: rgba(202, 220, 218, 0.93);
+    padding: 10px;
+}
+.jeniskelamin {
+    margin-bottom: 10px;
+}
+.beratbadan{
+    display: block;
+    margin-top: 20px;
+}
+#beratbadan {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 650px;
+}
+.usia{
+    display: block;
+    margin-top: 20px;
+}
+#usia{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 650px;
+}
+.tinggi{
+    display: block;
+    margin-top: 20px;
+}
+#tinggibadan{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 650px;
+}
+.hitung{
+    margin-top: 20px;
+    padding: 7px;
+    background-color: hsl(188, 100%, 41%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 10px;
+    box-shadow: 0px 0px 2px 2px hsl(190, 60%, 82%);
+}
+.hitung:hover{
+    background-color: hsl(188, 92%, 33%);
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+.reset{
+    margin-top: 20px;
+    padding: 7px;
+    border: none;
+    margin-left: 1px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px hsl(180, 8%, 82%);
+}
+.reset:hover{
+    background-color: lightgray;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.keterangan{
+    margin-top: 20px;
+}
+#hasil{
+    text-align: center;
+    font-size: 30px;
+}
+#kategori {
+    text-align: center;
+}
+
+
